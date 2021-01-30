@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const ATLAS_DB_URI = 'mongodb+srv://shruti:shruti@cluster0.v08jw.mongodb.net/<dr-plaza?retryWrites=true&w=majority';
+const ATLAS_DB_URI = 'mongodb+srv://shruti:shruti@cluster0.v08jw.mongodb.net/dr-plaza?retryWrites=true&w=majority';
 mongoose.connect(process.env.MONGODB_URI || ATLAS_DB_URI, {
     useNewUrlParser: true,
     useFindAndModify: false,
